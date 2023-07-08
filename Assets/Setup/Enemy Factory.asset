@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36bdc3afccce634aae73bcaab6d50d3, type: 3}
+  m_Name: Enemy Factory
+  m_EditorClassIdentifier: 
+  _chomper:
+    Prefab: {fileID: 6852423245855362328, guid: dab0f2564c13f9e4f97aaa094043d1f6, type: 3}
+    Scale:
+      _min: 1
+      _max: 1
+    PathOffset:
+      _min: -0.35
+      _max: 0.35
+    Speed:
+      _min: 1.861244
+      _max: 2.2057414
+    Health:
+      _min: 52.63158
+      _max: 64.47369
+  _ellen:
+    Prefab: {fileID: 5842126035982156827, guid: f67e94af0edca86419ce4f0e5daa942a, type: 3}
+    Scale:
+      _min: 1
+      _max: 1
+    PathOffset:
+      _min: -0.15525113
+      _max: 0.18264852
+    Speed:
+      _min: 1.1188118
+      _max: 1.71694
+    Health:
+      _min: 100
+      _max: 179.10957
+  _golem:
+    Prefab: {fileID: 7335938425866991631, guid: 50878a167859bc34aab26f9bc20ced30, type: 3}
+    Scale:
+      _min: 0.9323192
+      _max: 1.2320485
+    PathOffset:
+      _min: 0
+      _max: 0
+    Speed:
+      _min: 0.5977827
+      _max: 1.1683233
+    Health:
+      _min: 265.91467
+      _max: 361.63458
+  _grenadier:
+    Prefab: {fileID: 7335938425866991631, guid: 8c686bd916baab14d966cece6850b4e6, type: 3}
+    Scale:
+      _min: 1
+      _max: 1
+    PathOffset:
+      _min: 0
+      _max: 0
+    Speed:
+      _min: 0.49702972
+      _max: 0.6158417
+    Health:
+      _min: 626.85645
+      _max: 737.1287
